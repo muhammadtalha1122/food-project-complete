@@ -1,0 +1,36 @@
+:root {
+    --main-bg-color: brown;
+}
+.max-width-1{
+    max-width: 80vw ;
+}
+.max-width-2{
+    max-width:60vw ;
+}
+.m-auto{
+    margin: auto;
+}
+.btn{
+    padding: 5px 15px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    color: white;
+    background-color: brown;
+    /* transition: all 0.3s ease-in-out; */
+}
+.form-control{
+    padding: 5px 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 13px;
+}
+.my-2{
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
